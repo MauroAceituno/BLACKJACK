@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.3/underscore-umd-min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body >
+    
+    <div class="encabezado">BlackJack</div>
+    <div class="botones">
+        <button id="nuevo" class="btn">Nuevo Juego</button>
+        <button id="pedir" class="btn">Pedir Carta</button>
+        <button id="detener" class="btn">Detener</button>
+    </div>
+    <h1 id="mensaje" class="mensajeFinal">Ganaste!</h1>
+    <div class="alinear-caja-jugador">
+        <p class="jugador">JUGADOR<p class="puntos-jugador" id="jugador"></p></p>
+        <div id="cartas-jugador" class="cartas-jugador"></div>
+    </div>
+
+
+    <div class="alinear-caja-computadora">
+        <p class="computadora">COMPUTADORA<p class="puntos-computadora" id="computadora"></p></p>
+        <div id="cartas-computadora" class="cartas-computadora"></div>
+    </div>
+    <div class="fondito"></div>
+
+    <script src="js-min.js"></script>
+</body>
+</html>
